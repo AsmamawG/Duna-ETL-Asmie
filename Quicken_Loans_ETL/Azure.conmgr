@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Azure"
+  DTS:DTSID="{FC0738E7-8C99-437A-835C-D5310C23BAFF}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::Azure_ConnectionString]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=Duna.database.windows.net;User ID=UberWriter;Initial Catalog=UberWriter;Persist Security Info=True;Application Name=SSIS-Quicken_Loans_Project-{FC0738E7-8C99-437A-835C-D5310C23BAFF}Duna.database.windows.net.UberWriter.UberWriter;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA16wuJtn2KEKjzCLRt97syAAAAAACAAAAAAAQZgAAAAEAACAAAAAKFXNKkUJFW1yMXoBQSEEc0376gq1DgmVsS7LFJa6bGAAAAAAOgAAAAAIAACAAAADI5hTo4i3VBJWj/qjydN39j9jrV8k5vt1yjitdcD1xHIAAAABGK2L2AQMrU9JpTeWEEkI1bJtdhDsXs+7VA8nKC6zQl3vGO0+D68m/kwOu2AFKlu2ocYNpdckPPQHYaWgZYm6mXuFuyYUUmeNCmfjd/SZkT2qGZFNZMcZekbipij1pWUH94UF2RIvd0oNfl4ZgnjfhDnOxTmLu0nshkiG5gE8GjkAAAADnFdXkG6GZzisfosYKFVsXz63twWa05RA0yHJJjslWwdBlrwQR0cwmrBELn52GmubRMDphXl0TP7eSPEXphufL</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

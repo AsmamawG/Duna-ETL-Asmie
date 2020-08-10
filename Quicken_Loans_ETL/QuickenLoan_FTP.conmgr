@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="QuickenLoan_FTP"
+  DTS:DTSID="{51B6A7A2-203F-44A6-A50F-A15687E406AB}"
+  DTS:CreationName="FTP">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::QuickenLoan_FTP_ConnectionString]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="100.36.220.45:21">
+      <DTS:FtpConnection
+        DTS:ServerName="100.36.220.45"
+        DTS:ServerUserName="dunaftpuser">
+        <DTS:Property
+          DTS:Name="ServerPassword"
+          Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGZTMW8CIBkCmjd63re7j2AAAAAACAAAAAAAQZgAAAAEAACAAAAD4ULKGMAV/iv7/QWY1e+J7Q+YQpGUXfnF0DFfFrxZ3ZQAAAAAOgAAAAAIAACAAAADlb20WxQEJD9OIrIz+SR2r0+++rEvGjOTj9C/MAl45wYAAAAAOR5VBn6gFNcDMxBSIJLd9cBICdVqUoM9sFhiWuj8xuk4NR3lMSDAYRI/iqE+lRGGby1oErV/reO46NvfDe0hSFBzF3dVF6HtsZ7mk5RxScEuEtM2tqJBvnUM1gaAlAT7vYJWNXn+7evU0IfVDrb3P6aHmeZFCyffJvl/1vgOvfEAAAAApDCB2MYU+7+Z2aaKOXtHRVd8Sq7QGDDDklglHppDD3X2alYOzzvJtCWhGKgMWCfhFf5SvIZMWu4kDYm8mUj1k</DTS:Property>
+      </DTS:FtpConnection>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
