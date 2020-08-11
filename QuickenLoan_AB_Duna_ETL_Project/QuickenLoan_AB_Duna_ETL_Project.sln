@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "QuickenLoan_AB_Duna_ETL_Project", "QuickenLoan_AB_Duna_ETL_Project.dtproj", "{3EFC33D1-7380-4DB2-BE36-F9807B017715}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EFC33D1-7380-4DB2-BE36-F9807B017715}.Development|Default.ActiveCfg = Development
+		{3EFC33D1-7380-4DB2-BE36-F9807B017715}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33DDCF4D-9200-4468-ABFA-4FD091891682}
+	EndGlobalSection
+EndGlobal
